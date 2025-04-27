@@ -1,0 +1,44 @@
+@media screen and (min-width: 100vh) {
+	morph[role=sidebar] {
+		--morph-width:30vw;
+		--morph-height:100vh;
+		--morph-no-active-opacity: 1;
+		--morph-no-active-enable: all;
+	}
+}
+
+@media screen and (min-width: 120vh) {
+	morph[role=sidebar] {
+		--morph-width:20vw;
+		--morph-height:100vh;
+		--morph-no-active-opacity: 1;
+		--morph-no-active-enable: all;
+	}
+}
+
+@media screen and (min-width: 150vh) {
+	morph[role=sidebar] {
+		--morph-width:15vw;
+		--morph-height:100vh;
+		--morph-no-active-opacity: 1;
+		--morph-no-active-enable: all;
+	}
+}
+
+@media screen and (min-width: 200vh) {
+	morph[role=sidebar] {
+		--morph-width:200px;
+		--morph-height:100vh;
+		--morph-no-active-opacity: 1;
+		--morph-no-active-enable: all;
+	}
+}
+
+@media screen and (max-width: 100vh) {
+	morph[role=sidebar] {
+		/* margin-top:15px; */
+		--morph-width:100vw;
+		--morph-height:95vh;
+		--morph-top:5vh;
+	}
+}
